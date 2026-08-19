@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<upstream>
+		<maintainer status="active">
+			<email>bj.rn@baerlin.eu</email>
+			<name>Björn Busse</name>
+		</maintainer>
+		<bugs-to>https://github.com/bbusse/vju/issues</bugs-to>
+		<remote-id type="github">bbusse/vju</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		vju is a widget for displaying text and images piped from stdin. When used
+		as a selection tool it writes the user's choice to stdout, and it can also
+		act as a simple image viewer.
+	</longdescription>
+</pkgmetadata>
