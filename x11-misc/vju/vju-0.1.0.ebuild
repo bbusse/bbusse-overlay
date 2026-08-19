@@ -525,7 +525,7 @@ RDEPEND="
 	x11-libs/libX11
 	x11-libs/libxkbcommon
 	dev-libs/wayland
-	media-libs/mesa
+	media-libs/mesa[X]
 	media-libs/alsa-lib
 	virtual/libudev
 "
