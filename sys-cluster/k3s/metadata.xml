@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">k3s-io/k3s</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		k3s is a lightweight, certified Kubernetes distribution built for IoT and
+		edge computing. It ships as a single static binary with containerd, a CNI
+		plugin set and other cluster dependencies already bundled in - there is
+		nothing to compile, this package just fetches and installs the upstream
+		binary for the target architecture.
+	</longdescription>
+</pkgmetadata>
