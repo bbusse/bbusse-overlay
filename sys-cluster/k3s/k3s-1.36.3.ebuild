@@ -10,8 +10,8 @@ K3S_TAG="v${PV}+k3s1"
 DESCRIPTION="Lightweight Kubernetes"
 HOMEPAGE="https://k3s.io https://github.com/k3s-io/k3s"
 SRC_URI="
-	amd64? ( https://github.com/k3s-io/k3s/releases/download/${K3S_TAG}/k3s -> ${P} )
-	arm64? ( https://github.com/k3s-io/k3s/releases/download/${K3S_TAG}/k3s-arm64 -> ${P} )
+	amd64? ( https://github.com/k3s-io/k3s/releases/download/${K3S_TAG}/k3s -> ${P}-amd64 )
+	arm64? ( https://github.com/k3s-io/k3s/releases/download/${K3S_TAG}/k3s-arm64 -> ${P}-arm64 )
 "
 S="${WORKDIR}"
 
@@ -27,7 +27,7 @@ QA_PREBUILT="usr/bin/${PN}"
 
 src_install() {
 	exeinto /usr/bin
-	newexe "${DISTDIR}/${P}" "${PN}"
+	newexe "${DISTDIR}/${P}-${ARCH}" "${PN}"
 
 	systemd_dounit "${FILESDIR}/${PN}.service"
 }
