@@ -500,7 +500,10 @@ CRATES="
 	zvariant_utils-3.3.0
 "
 
-inherit cargo
+EGIT_REPO_URI="https://github.com/bbusse/vju.git"
+EGIT_COMMIT="4da1550ecc144b360c68249d5017c6b4fd4d195e"
+
+inherit cargo git-r3
 
 DESCRIPTION="Widget for displaying text and images piped from stdin"
 HOMEPAGE="https://github.com/bbusse/vju"
@@ -536,15 +539,11 @@ BDEPEND="virtual/pkgconfig"
 QA_FLAGS_IGNORED="usr/bin/${PN}"
 
 # vju isn't published to crates.io and has no tagged release tarball, so
-# SRC_URI above only covers dependency crates (via cargo_crate_uris) - there
-# is nothing to fetch for vju's own source. The CI build check (see
-# build-gentoo-pkg.yml in bbusse/github-workflows) instead stages the
-# checked-out repo under ${FILESDIR}/vju-src before invoking Portage; copy it
-# into place before cargo_src_unpack vendors dependencies from Cargo.lock
-# (cargo_src_unpack needs Cargo.lock to already be in ${S} to know what to
-# vendor, so this must run first).
+# SRC_URI above only covers dependency crates (via cargo_crate_uris) - vju's
+# own source comes from EGIT_REPO_URI/EGIT_COMMIT via git-r3 instead. This
+# must run before cargo_src_unpack, which needs Cargo.lock already in ${S}
+# to know what to vendor.
 src_unpack() {
-	mkdir -p "${S}"
-	cp -a "${FILESDIR}/vju-src/." "${S}/"
+	git-r3_src_unpack
 	cargo_src_unpack
 }
