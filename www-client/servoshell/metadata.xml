@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://github.com/servo/servo/issues</bugs-to>
+		<remote-id type="github">servo/servo</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		servoshell is the reference browser shipped with the Servo web engine.
+		It is built here from upstream's vendored release tarball, so the build
+		needs no network access to crates.io.
+	</longdescription>
+</pkgmetadata>

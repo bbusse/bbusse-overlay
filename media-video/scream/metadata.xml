@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<upstream>
+		<maintainer status="active">
+			<email>bj.rn@baerlin.eu</email>
+			<name>Björn Busse</name>
+		</maintainer>
+		<bugs-to>https://github.com/bbusse/scream/issues</bugs-to>
+		<remote-id type="github">bbusse/scream</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		scream is a Wayland RTSP server. It captures the screen through the
+		ext-image-copy-capture-v1 protocol and serves the result over RTSP
+		using a GStreamer pipeline.
+	</longdescription>
+</pkgmetadata>
