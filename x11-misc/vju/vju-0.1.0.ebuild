@@ -501,6 +501,7 @@ CRATES="
 "
 
 EGIT_REPO_URI="https://github.com/bbusse/vju.git"
+EGIT_BRANCH="ci"
 EGIT_COMMIT="4da1550ecc144b360c68249d5017c6b4fd4d195e"
 EGIT_CLONE_TYPE="mirror"
 
