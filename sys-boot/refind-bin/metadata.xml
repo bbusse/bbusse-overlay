@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="sourceforge">refind</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		Prebuilt rEFInd boot manager EFI binary installed as
+		refind_&lt;efiarch&gt;.efi under /usr/share/refind
+	</longdescription>
+</pkgmetadata>
