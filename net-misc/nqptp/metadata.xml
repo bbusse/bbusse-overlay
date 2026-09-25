@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://github.com/mikebrady/nqptp/issues</bugs-to>
+		<remote-id type="github">mikebrady/nqptp</remote-id>
+	</upstream>
+</pkgmetadata>

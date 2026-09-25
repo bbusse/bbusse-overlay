@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<use>
+		<flag name="airplay2">Build for AirPlay 2, needs <pkg>net-misc/nqptp</pkg> running</flag>
+		<flag name="convolution">Enable audio DSP convolution via <pkg>media-libs/libsndfile</pkg></flag>
+		<flag name="mpris">Enable the MPRIS D-Bus interface</flag>
+		<flag name="mqtt">Enable the MQTT client via <pkg>app-misc/mosquitto</pkg></flag>
+		<flag name="pipewire">Enable the pipewire audio backend</flag>
+		<flag name="soxr">Use <pkg>media-libs/soxr</pkg> for high quality interpolation</flag>
+	</use>
+	<upstream>
+		<bugs-to>https://github.com/mikebrady/shairport-sync/issues</bugs-to>
+		<remote-id type="github">mikebrady/shairport-sync</remote-id>
+	</upstream>
+</pkgmetadata>
