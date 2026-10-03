@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<use>
+		<flag name="usb-monitor">Support monitors that use USB for DDC/CI</flag>
+		<flag name="user-permissions">Install the udev rule and i2c group that give non-root users access to the i2c devices</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">rockowitz/ddcutil</remote-id>
+	</upstream>
+</pkgmetadata>
