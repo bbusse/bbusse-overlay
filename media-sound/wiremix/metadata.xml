@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<longdescription lang="en">wiremix is a simple TUI audio mixer for PipeWire. It controls the volume of devices and streams, routes streams to devices and switches device profiles</longdescription>
+	<upstream>
+		<bugs-to>https://github.com/tsowell/wiremix/issues</bugs-to>
+		<changelog>https://github.com/tsowell/wiremix/blob/main/CHANGELOG.md</changelog>
+		<remote-id type="github">tsowell/wiremix</remote-id>
+	</upstream>
+</pkgmetadata>

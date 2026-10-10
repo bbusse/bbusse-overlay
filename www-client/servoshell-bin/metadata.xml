@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://github.com/servo/servo/issues</bugs-to>
+		<remote-id type="github">servo/servo</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		servoshell is the reference browser shipped with the Servo web engine.
+		This package installs upstream's prebuilt release binary rather than
+		compiling servo and its SpiderMonkey dependency from source.
+	</longdescription>
+</pkgmetadata>
