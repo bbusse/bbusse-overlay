@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>bj.rn@baerlin.eu</email>
+		<name>Björn Busse</name>
+	</maintainer>
+	<upstream>
+		<maintainer status="active">
+			<email>bj.rn@baerlin.eu</email>
+			<name>Björn Busse</name>
+		</maintainer>
+		<bugs-to>https://github.com/bbusse/mug/issues</bugs-to>
+		<remote-id type="github">bbusse/mug</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		mug creates instant functional tray icons: pick a PNG or an emoji and a
+		shell command to run on click. Upstream currently targets macOS only;
+		Linux and BSD backends are planned.
+	</longdescription>
+</pkgmetadata>
