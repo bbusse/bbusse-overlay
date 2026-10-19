@@ -11,6 +11,7 @@ inherit distutils-r1 git-r3
 DESCRIPTION="A py3status module for querying Datadog metrics and monitors"
 HOMEPAGE="https://github.com/bbusse/py3status-datadog"
 EGIT_REPO_URI="https://github.com/bbusse/py3status-datadog.git"
+EGIT_BRANCH="dev"
 
 LICENSE="BSD"
 SLOT="0"
